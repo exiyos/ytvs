@@ -1,0 +1,66 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-color: #202E3B;
+  height: 100%;
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.heading{
+  margin-top: 200px;
+  font-size: 1.5,rem;
+  color:rgb(117,230,68);
+}
+
+input{
+  background-color: rgb(25,31,36) ;
+  height: 45px;
+  width: 350px;
+  border:1px transparent;
+  border-radius: 9px;
+  padding-left: 6px;
+  margin-top:50px;
+  caret-color: rgb(117,230,68);
+  color:white;
+  outline: none;
+}
+
+.logo{
+  position: absolute;
+  top:10px;
+  left:10px;
+  font-size: 1.3rem;
+  color:white;
+  font-weight: bolder;
+  
+  
+ 
+}
+
+.fa-download{
+  color:rgb(117,230,68) ;
+  margin-left: 5px;
+}
+
+
+.download{
+  margin-top: 50px;
+  height: 40px;
+  width: 100px;
+  background-color: rgb(103,206,58);
+  transition: 0.4s;
+  color: white;
+  outline: none;
+  border: 1px transparent;
+  border-radius: 7px;
+}
+
+.download:hover{
+  background-color: rgb(78,159,43);
+}
+
+.fa-arrow-down{
+  margin-left: 5px;
+}
