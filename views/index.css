@@ -64,3 +64,37 @@ input{
 .fa-arrow-down{
   margin-left: 5px;
 }
+
+
+.choose{
+  color:white;
+  margin: 25px;
+}
+
+.format{
+  margin-left:auto;
+  margin-right:auto;
+  
+  width: 180px;
+  height: 70px;
+  background-color:rgb(25,31,36) ;
+  display: flex;
+}
+
+.mp3,.mp4{
+  width: 90px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  transition: 0.3s;
+}
+
+.mp3:hover,.mp4:hover{
+  background-color: rgb(64,148,28);
+}
+
+.active{
+  background-color: rgb(84,194,36) ;
+}
