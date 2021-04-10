@@ -46,10 +46,10 @@ function matchYoutubeUrl() {
 
 function sendURL(URL) {
   if(x==1){
-  window.location.href = `http://localhost:4000/download?URL=${URL}`;
+  window.location.href = `https://ytvideosaver.herokuapp.com/download?URL=${URL}`;
   }
   if(x==2){
-  window.location.href = `http://localhost:4000/mp3?URL=${URL}`;
+  window.location.href = `https://ytvideosaver.herokuapp.com/mp3?URL=${URL}`;
   }
   }
   
