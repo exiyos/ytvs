@@ -46,10 +46,10 @@ function matchYoutubeUrl() {
 
 function sendURL(URL) {
   if(x==1){
-  window.location.href = `${window.location.href}/download?URL=${URL}`;
+  window.location.href = `${window.location.href}download?URL=${URL}`;
   }
   if(x==2){
-  window.location.href = `${window.location.href}/mp3?URL=${URL}`;
+  window.location.href = `${window.location.href}mp3?URL=${URL}`;
   }
   }
   
