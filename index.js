@@ -10,7 +10,7 @@ const app = express();
 var title;
 app.use('/views', express.static('views'));
 app.use(cors());
-app.listen(4000, () => {
+app.listen(process.env.PORT, () => {
   console.log('Server Workss !!! At port 4000');
 });
 
